@@ -1,0 +1,23 @@
+{
+  "name": "sumikakushi",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsgo && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "hono": "^4.9.7"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.4",
+    "@cloudflare/vite-plugin": "^1.13.2",
+    "@types/bun": "^1.2.22",
+    "@types/web": "^0.0.269",
+    "@typescript/native-preview": "^7.0.0-dev.20250917.1",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.6",
+    "wrangler": "^4.17.0"
+  }
+}
